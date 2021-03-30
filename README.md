@@ -1,38 +1,47 @@
-[← return to main exam README.md](../../README.md)
+# React Assessment <!-- omit in toc -->
 
-Setup cmds:
+## Table of Contents <!-- omit in toc -->
+- [Running the Project](#running-the-project)
+  - [Setup](#setup)
+  - [Dev Server](#dev-server)
+  - [Tests](#tests)
+- [Instructions](#instructions)
+  - [Mock Ups](#mock-ups)
 
-### `npm install`
 
-### `npm start`
+## Running the Project
+### Setup
+- run `npm install` to install dependencies before starting this section.
+  ### Dev Server
+- To run the dev server for this section, use `npm start` 
 
-Instructions:
+### Tests
+- To run tests for this section, use `num run test`
+- Press `ENTER` to re-run tests as you code.
 
-For this assessment you will demonstrate you knowledge of React by completing a
+## Instructions
+
+For this assessment you will demonstrate your knowledge of React by completing a
 simple calculator application.
 
-The framework for this app has been provided for you as well. You will not need
-to contribute any custom css or styling.
+The framework for this app has been provided for you as well. You will *_not_*
+need to contribute any custom css or styling. 
 
 - You may choose to build out EITHER the class component framework `CalcClass`
   or functional component framework utilizing hooks `CalcHook`
-- Comment in ONLY the `import` in `App.js` that corresponds to your chosen
-  approach. Leaving both commented or uncommented simultaneously will result in
-  a failed test.
+- Comment in ONLY the `export default` at the bottom of the page that
+  corresponds to your chosen approach. Leaving both commented out or commented
+  in simultaneously will result in a failed test.
 
-Refer to the pdf mockup for the completed app.
 
 - All code should be written in `./src/components/Calculator.js`
 - When not displaying a number `input` and `display` values should be an empty
   string `''`
-- `+` should be the default opperator.
+- `+` should be the default operator.
 - If `Calculate` is attempted without 2 number inputs, `Select Two Numbers`
   should be rendered as an error message.
 
-To test:
+### Mock Ups
+![calculator mockup](./mockups/calculator.png)
 
-### num run test
-
-- Press `ENTER` to re-run tests as you code.
-
-[← return to main exam README.md](../../README.md)
+![error mockup](./mockups/error.png)
