@@ -1,16 +1,8 @@
-# React Assessment <!-- omit in toc -->
-
-## Table of Contents <!-- omit in toc -->
-- [Running the Project](#running-the-project)
-  - [Setup](#setup)
-  - [Dev Server](#dev-server)
-  - [Tests](#tests)
-- [Instructions](#instructions)
-  - [Mock Ups](#mock-ups)
-
-
+# React
 ## Running the Project
-### Setup
+- clone this section to your machine by running `git clone
+  https://github.com/appacademy/assessment-for-week-EXIT-version-a-react.git`
+  ### Setup
 - run `npm install` to install dependencies before starting this section.
   ### Dev Server
 - To run the dev server for this section, use `npm start` 
@@ -21,7 +13,7 @@
 
 ## Instructions
 
-For this assessment you will demonstrate your knowledge of React by completing a
+For this section you will demonstrate your knowledge of React by completing a
 simple calculator application.
 
 The framework for this app has been provided for you as well. You will *_not_*
