@@ -1,5 +1,5 @@
 import React from 'react';
-import App from './App';
+import App from '../App';
 import { render, fireEvent, cleanup } from '@testing-library/react';
 
 const renderApp = () => render(<App />);

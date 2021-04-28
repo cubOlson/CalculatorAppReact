@@ -12,6 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "test-with-json": "react-scripts test --watchAll=false --json --outputFile=hiddenTemp.json && node ./src/test/jest-formatter.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
