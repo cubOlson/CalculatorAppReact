@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "test-with-json": "react-scripts test --watchAll=false --json --outputFile=hiddenTemp.json && node ./src/test/jest-formatter.js",
+    "test-with-json": "SKIP_PREFLIGHT_CHECK=true CI=true react-scripts test --outputFile=./test/score.json --json; node test/calculateScore.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
