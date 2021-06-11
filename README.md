@@ -19,14 +19,14 @@ simple calculator application.
 The framework for this app has been provided for you as well. You will *_not_*
 need to contribute any custom css or styling. 
 
-- You may choose to build out EITHER the class component framework `CalcClass`
-  or functional component framework utilizing hooks `CalcHook`
-- Comment in ONLY the `export default` at the bottom of the page that
-  corresponds to your chosen approach. Leaving both commented out or commented
+- You may choose to build out EITHER the class component framework `Class.js`
+  or functional component framework utilizing hooks `Hook.js`
+- Comment in ONLY the `import` statement at the top of the page that
+  corresponds to your chosen approach inside of `App.js`. Leaving both commented out or commented
   in simultaneously will result in a failed test.
 
 
-- All code should be written in `./src/components/Calculator.js`
+- All code should be written in `./src/components/Class.js` or `./src/components/Hook.js` depending on whether you're using hooks or class syntax.
 - When not displaying a number `input` and `display` values should be an empty
   string `''`
 - `+` should be the default operator.
